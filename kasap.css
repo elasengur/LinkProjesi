@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Quicsand", sans-serif;
+}
+
+.kasa {
+    margin: 0 auto;
+    /* background-color:aqua;*/
+    width: 800px;
+    min-height: 500px;
+}
+
+.banner {
+    height: 150px;
+    background-color: blueviolet;
+    margin: 10px 0;
+    background-image: url("images.jfif");
+    background-position: center center;
+    background-size: cover;
+    border-radius: 20px 5px;
+}
+
+.linkler {
+    min-height: 250px;
+    background-color: bisque;
+    width: 190px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 5px 20px;
+}
+
+ul.menu {
+    list-style-type: none;
+    text-align: center;
+}
+
+ul.menu li {
+    font-size: 150%;
+    line-height: 200%;
+}
+
+ul.menu li a {
+    font-family: "Josefin Sans", sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+ul.menu li a:hover {
+    color: blueviolet;
+}
+
+.icerik {
+    /*background-color:goldenrod;*/
+    width: 590px;
+    min-height: 350px;
+    float: left;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.icerik h1 {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border-bottom: 2px dashed darkgreen;
+}
+
+.icerik p {
+    text-align: justify;
+    margin: 5px 0;
+}
+
+.footer {
+    background-color: lightblue;
+    min-height: 35px;
+    padding-left: 15px;
+    padding-top: 15px;
+}

@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+/* Ana kasa – ARTIK TAM EKRAN */
+.kasa {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fff;
+}
+
+.banner {
+    height: 220px;
+    background-color: #2b2f33;
+    /* koyu arka plan */
+    display: flex;
+    align-items: center;
+    /* dikey ortalama */
+    justify-content: center;
+    /* yatay ortalama */
+}
+
+/* Logo */
+.banner img {
+    max-height: 160px;
+    max-width: 160px;
+    object-fit: contain;
+    border-radius: 50%;
+    /* logo yuvarlak kalsın */
+    background-color: #fff;
+    padding: 10px;
+}
+
+/* ORTA ALAN */
+.orta {
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 14px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    /* 🔥 TÜM YAZILAR ORTALI */
+}
+
+/* MENÜ */
+.linkler {
+    margin-bottom: 30px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #4b2c5e;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.menu a:hover {
+    color: #7a4a9e;
+}
+
+/* BAŞLIK */
+.orta h2 {
+    font-size: 32px;
+    color: #4b2c5e;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+
+/* PARAGRAFLAR */
+.orta p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* LINK BAŞLIKLARI */
+.orta h4 {
+    margin-top: 15px;
+}
+
+.orta h4 a {
+    text-decoration: none;
+    color: #4b2c5e;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.orta h4 a:hover {
+    color: #fff;
+    background-color: #4b2c5e;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
